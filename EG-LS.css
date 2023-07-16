@@ -1,0 +1,40 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px;
+}
+h1{
+  font-size: 3rem;
+}
+.wrapper{
+  margin:0 auto;
+  width: 80%;
+  max-width: 960px;
+}
+.hero{
+  padding: 100px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(img/EG.png);
+  color: #e4e5e8;
+}
+
+.hero__text{
+  width: 60%;
+}
+.hero p{
+  margin-bottom:3em;
+}
+.hero__btn{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #163916;
+  background-color: #e6e5e5;
+  font-weight: 900;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
